@@ -9,7 +9,8 @@ This script is currently set to choose the home team for each matchup as well as
 
 This is best used as an automated task to run once a week (probably on Tuesday or Wednesday). For those unaware on how to schedule automated tasks, an article like [this](https://datatofish.com/python-script-windows-scheduler/) might be useful if you're on Windows. Every OS has its own way to do this.
 
-# settings.json
+# Requirements
+## settings.json
 A file named `settings.json` is required to be in the scripts directory. Currently all these fields are required.
 ```
 {
@@ -19,3 +20,6 @@ A file named `settings.json` is required to be in the scripts directory. Current
 }
 ```
 **Note:** the picksUrl is your url to the make-picks page for your pool.
+
+## geckodriver
+geckodriver is required to be installed. See this [repo](https://github.com/mozilla/geckodriver/releases) if it needs to be installed on your system.
